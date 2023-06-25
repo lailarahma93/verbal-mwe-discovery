@@ -43,5 +43,8 @@ def main():
     #Removing head-[confixed modifier], head-prefix-modifier, and head-modifier-suffix
     df_filter2 = df_filter1[df_filter1['Modifier'].isin(df_filter1['Stem_mod'])]
 
+    #save the result as csv file
+    df_filter2.to_csv('vmwe_candidates.csv')
+
     
 main()
