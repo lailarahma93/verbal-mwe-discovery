@@ -1,4 +1,4 @@
-# verbal-mwe-discovery
+# Verbal MWE Discovery
 
 Extracting verbal MWEs in Indonesian using 3 indicators: affix patterns, cosine similarity, and pointwise mutual information.
 
